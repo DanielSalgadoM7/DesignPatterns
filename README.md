@@ -10,7 +10,7 @@ O sistema permite criar, decorar, notificar e gerenciar tarefas com foco didáti
 
 ## Funcionalidades
 
-### Parte 1 — Design Patterns Básicos
+### Parte 1 — Design Patterns Implementados anteriormente e que sofreram mudanças
 Design Pattern -> Tipo -> Implementação -> Mudança
 * Factory Method -> Criacional -> Criação de tarefas com diferentes tipos (`pessoal`, `trabalho`, `estudo` e `lazer`) -> A mudança que foi feita é que agora é possível adicionar tarefas de lazer
 * Decorator -> Estrutural -> Aplicação dinâmica de recursos como: alta prioridade, etiqueta colorida, data de vencimento -> A mudança que foi feita é que agora é possível qual a etapa o projeto está, entre etapa Inicial, Meio ou Final
@@ -18,7 +18,7 @@ Design Pattern -> Tipo -> Implementação -> Mudança
 
 ---
 
-### Parte 2 — Design Patterns Avançados
+### Parte 2 — Design Patterns Avançados que foram implementados de uma nova forma
 
 Design Pattern -> Tipo -> Implementação
 * Singleton -> Criacional -> Logger centralizado com histórico de ações de uma forma mais ampla que o Observer. Foi pensado para servir como uma plataforma de controle, que posteriormente pode ser salva em um banco de dados grande para puxar backups, por exemplo.
